@@ -128,7 +128,6 @@ fn translate_keycode(key: KeyCode) -> Option<egui::Key> {
 		KeyCode::Up => Key::ArrowUp,
 		KeyCode::Right => Key::ArrowRight,
 		KeyCode::Down => Key::ArrowDown,
-		KeyCode::Back => Key::Backspace,
 		KeyCode::Return => Key::Enter,
 		KeyCode::Tab => Key::Tab,
 		KeyCode::Space => Key::Space,
